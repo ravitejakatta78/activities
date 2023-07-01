@@ -1,0 +1,76 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'student_list.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+StudentList _$StudentListFromJson(Map<String, dynamic> json) => StudentList(
+      json['id'] as String?,
+      json['school_id'] as String?,
+      json['role_id'] as String?,
+      json['status'] as String?,
+      json['first_name'] as String?,
+      json['last_name'] as String?,
+      json['gender'] as String?,
+      json['dob'] as String?,
+      json['address'] as String?,
+      json['roll_number'] as String?,
+      json['blood_group'] as String?,
+      json['religion'] as String?,
+      json['student_class'] as String?,
+      json['student_section'] as String?,
+      json['admission_id'] as String?,
+      json['student_image'] as String?,
+      json['parent_id'] as String?,
+      json['created_by'] as String?,
+      json['updated_by'] as String?,
+      json['created_on'] as String?,
+      json['updated_on'] as String?,
+      json['reg_date'] as String?,
+      json['student_img'] as String?,
+      json['parent_name'] as String?,
+      json['parent_type_text'] as String?,
+      json['occupation'] as String,
+      json['mobile'] as String?,
+      json['email'] as String?,
+      json['class_name'] as String?,
+      json['section_name'] as String?,
+      json['parent_user_id'] as String?,
+    );
+
+Map<String, dynamic> _$StudentListToJson(StudentList instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'school_id': instance.schoolId,
+      'role_id': instance.roleId,
+      'status': instance.status,
+      'first_name': instance.firstName,
+      'last_name': instance.lastName,
+      'gender': instance.gender,
+      'dob': instance.dob,
+      'address': instance.address,
+      'roll_number': instance.rollNumber,
+      'blood_group': instance.bloodGroup,
+      'religion': instance.religion,
+      'student_class': instance.studentClass,
+      'student_section': instance.studentSection,
+      'admission_id': instance.admissionId,
+      'student_image': instance.studentImage,
+      'parent_id': instance.parentId,
+      'created_by': instance.createdBy,
+      'updated_by': instance.updatedBy,
+      'created_on': instance.createdOn,
+      'updated_on': instance.updatedOn,
+      'reg_date': instance.regDate,
+      'student_img': instance.studentImg,
+      'parent_name': instance.parentName,
+      'parent_type_text': instance.parentTypeText,
+      'occupation': instance.occupation,
+      'email': instance.email,
+      'mobile': instance.mobile,
+      'class_name': instance.className,
+      'section_name': instance.sectionName,
+      'parent_user_id': instance.parentUserId,
+    };
